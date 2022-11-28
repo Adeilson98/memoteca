@@ -4,13 +4,20 @@
       <button routerLink="/novo-pensamento" class="button">Adicionar pensamento</button>
   </header>
 
-  <div class="mural">
+  <div class="mural" *ngIf="listThought.length > 0, else withoutThought">
 
     <div *ngFor="let thought of listThought">
 
       <!-- = though is the variable created on ngFor representing each of elements on app-thought -->
       <app-thought [thought]="thought"></app-thought>
     </div>
+
   </div>
 
 </section>
+
+<ng-template #withoutThought>
+  <div class="without-thoughts ff-inter">
+    <p>Ainda não há pensamentos cadastrados!</p>
+  </div>
+</ng-template>

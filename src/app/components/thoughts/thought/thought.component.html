@@ -1,4 +1,4 @@
-<div class="thought {{ thought.model }} ff-roboto-mono thought-p">
+<div class="thought {{ thought.model }} ff-roboto-mono" [ngClass]="widthThought()">
   <img src="../../../../assets/images/{{ thought.model }}.png" alt="Aspas coloridas">
 
   <p class="content">{{ thought.content }}</p>
