@@ -3,4 +3,14 @@
       <h2 class="ff-inter">Meu Mural</h2>
       <button routerLink="/novo-pensamento" class="button">Adicionar pensamento</button>
   </header>
+
+  <div class="mural">
+
+    <div *ngFor="let thought of listThought">
+
+      <!-- = though is the variable created on ngFor representing each of elements on app-thought -->
+      <app-thought [thought]="thought"></app-thought>
+    </div>
+  </div>
+
 </section>
