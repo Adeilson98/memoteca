@@ -40,9 +40,10 @@ h2 {
     margin-left: auto;
 }
 
-.botao {
+.button {
     background: #154580;
     color: #ffffff;
+    cursor: pointer;
     max-width: 270px;
     width: 250px;
     padding: 1rem;
@@ -52,7 +53,7 @@ h2 {
     transition: 0.5s ease;
 }
 
-.botao:hover {
+.button:hover {
     border: 2px solid #84EEC1;
     color: #84EEC1;
 }
