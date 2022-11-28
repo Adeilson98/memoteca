@@ -1,0 +1,22 @@
+{
+  "thoughts": [
+    {
+      "id": 1,
+      "content": "Teste de conteúdo",
+      "author": "Adeilson Silva",
+      "model": "modelo1"
+    },
+    {
+      "id": 2,
+      "content": "Teste de conteúdo pela segunda vez",
+      "author": "Adeilson Silva",
+      "model": "modelo2"
+    },
+    {
+      "id": 3,
+      "content": "Teste de conteúdo pela terceira vez",
+      "author": "Adeilson Silva",
+      "model": "modelo1"
+    }
+  ]
+}
