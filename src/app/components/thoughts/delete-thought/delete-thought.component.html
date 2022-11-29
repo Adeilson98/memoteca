@@ -1,1 +1,12 @@
-<p>delete-thought works!</p>
+<section class="container ff-inter delete-thoughts">
+  <div class="modal">
+    <p>O pensamento será deletado. <br> Confirma a exclusão?</p>
+
+    <div class="actions">
+      <button class="button btn-delete" (click)="deleteThought()">Excluir</button>
+      <button class="button btn-cancel" (click)="cancelThought()">Cancelar</button>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+</section>
